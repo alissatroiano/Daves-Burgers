@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Davie JR's Menu</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,500,700|Oswald:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navigation Section -->
+
+  <nav>
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" />
+    <span><a onclick="document.getElementById('menu').style.display='block'" href="#menu">MENU</a></span>
+    <span><a href="#nutrition">NUTRITION</a></span>
+    <span><a href="#order">ORDER</a></span>
+    <span><a href="#">LOCATIONS</a></span>
+  </nav>
+
+  <!-- Menu Modal -->
+<div id="menu" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Starters</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Onion Rings <b>$2.50</b></h5>
+      <h5>Chicken Salad <b>$3.50</b></h5>
+      <h5>Wings <b>$6.50</b></h5>
+    </div>
+    <div class="w3-container">
+      <h1>Dave's Burgers</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Dave's Classic Burger<b>$7.50</b></h5>
+      <h5>Bacon Cheeseburger <b>$10.50</b></h5>
+      <h5>Veggie Burger <b>$8.00</b></h5>
+      <h5>Chicken and Potatoes <b>$6.50</b></h5>
+      <h5>Dave's Deluxe Burger<b>$12.50</b></h5>
+    </div>
+    <div class="w3-container">
+      <h1>Desserts</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Ice Cream Sundae <b>$5.50</b></h5>
+      <h5>Frozen Yogurt <b>$5.00</b></h5>
+      <h5>Chocolate Cake <b>$4.00</b></h5>
+    </div>
+  </div>
+</div>
+
+  <!-- Content Section -->
+
+  <div class="content">
+
+    <!-- Content Header -->
+    
+    <div class="header">
+      <h1>BBQ BACON BURGER</h1>
+    </div>
+
+    <!-- Content Body -->
+
+    <div class="body">
+      <p>
+        Our BBQ Bacon Burger features our special house ground blend of wagyu and sirloin, spiced perfectly, and finished off with just a drop of white truffle oil. A butter grilled brioche bun layered with roasted red onion, perfectly crispy pork belly, and our hickory smoked BBQ sauce.
+      </p>
+
+      <!--
+      <div class="menu" id="menu">
+          <h1 class="menu-h1">THE MENU</h1>
+           <div class="w3-row w3-center w3-border w3-border-teal">
+             <h1><b>Margherita</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span></h1>
+      <p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+      <hr>
+   
+      <h1><b>Formaggio</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$15.50</span></h1>
+      <p class="w3-text-grey">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+      <hr>
+      
+      <h1><b>Chicken</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$17.00</span></h1>
+      <p class="w3-text-grey">Fresh tomatoes, mozzarella, chicken, onions</p>
+      <hr>
+
+      <h1><b>Pineapple'o'clock</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$16.50</span></h1>
+      <p class="w3-text-grey">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+      <hr>
+
+      <h1><b>Meat Town</b> <span class="w3-tag w3-red w3-round">Hot!</span><span class="w3-right w3-tag w3-dark-grey w3-round">$20.00</span></h1>
+      <p class="w3-text-grey">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+      <hr>
+
+      <h1><b>Parma</b> <span class="w3-tag w3-grey w3-round">New</span><span class="w3-right w3-tag w3-dark-grey w3-round">$21.50</span></h1>
+      <p class="w3-text-grey">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+    </div>
+   -->
+
+      <!-- Nutrition Information -->
+      <ul class="nutrition" id="nutrition">
+        <li>
+          <span class="category">CALORIES</span>
+          <span class="value">678</span>
+        </li>
+        <li>
+          <span class="category">FAT</span>
+          <span class="value">32</span>
+        </li>
+        <li>
+          <span class="category">PROTEIN</span>
+          <span class="value">8</span>
+        </li>
+        <li>
+          <span class="category">CARBOHYDRATES</span>
+          <span class="value">34</span>
+        </li>
+        <li>
+          <span class="category">SODIUM</span>
+          <span class="value">112</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+<br>
+<!-- Order Button -->
+<a href="#" class="button" id="order">ORDER NOW!</a>
+  
+</body>
+</html>
