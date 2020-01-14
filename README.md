@@ -5,7 +5,7 @@ A website built with HTML and CSS for a fictional restaurant, Dave's Burgers
 Alissa Troiano (Owner)
 
 # Background
-This is the Freeform Project for CODECADEMY.COM'S CSS: The Box Model Lesson. 
+This is the Freeform Project for CODECADEMY.COM'S CSS: The Box Model Lesson.
 <https://www.codecademy.com/courses/learn-css/projects/box-model-on>
 
 # Instructions
@@ -21,3 +21,6 @@ In addition to following the basic proejct guidelines, I added the following add
 2. A pop up menu styled to match the website's color palette & overall aesthetic
 3. Menu items
 4. Rearranged layout to make my proect build more unique.
+
+# Instructions
+To view this project visit <https://alissatroiano.github.io/boxmodel-burgers/>
